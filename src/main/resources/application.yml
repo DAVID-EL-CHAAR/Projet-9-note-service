@@ -1,9 +1,8 @@
-spring:
-  data:
-    mongodb:
-      host: mongodb  # Utiliser le nom du service dans Docker Compose
-      port: 27017
-      database: medical_notes_db  # Nom de la base de données pour les notes
-
-application:
-  name: note-service
+#spring:
+  #data:
+   # mongodb:
+     # host: localhost
+     # port: 27017
+     # database: medical_notes_db  # Nom de la base de données pour les notes
+  #application:
+  #  name: note-service

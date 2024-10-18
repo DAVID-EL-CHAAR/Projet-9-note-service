@@ -24,4 +24,4 @@ COPY --from=build /app/target/note-service-0.0.1-SNAPSHOT.jar /app/note-service.
 EXPOSE 8083
 
 # Lancer l'application
-ENTRYPOINT ["java", "-jar", "note-service.jar"]
+ENTRYPOINT ["java", "-jar", "note-service.jar","--spring.profiles.active=docker"]
